@@ -5,6 +5,7 @@ A static web page served by Nginx in a custom Docker image, deployed alongside a
 ## Docker Hub
 
 
+- Profile: https://hub.docker.com/u/esther09027
 - Image repo: https://hub.docker.com/r/esther09027/infracloud-web
 
 ## Files
@@ -41,7 +42,14 @@ docker build -t infracloud-web:latest .
 
 ## Screenshots
 
-Screenshots of the app running in the container, the Compose services, the Docker Hub repo and the deployment on a new server are in the `screenshots/` folder.
+### App running in the container
+![App in browser](screenshots/01-app-in-browser.jpg)
+
+### Docker Compose: web and database running
+![Compose services](screenshots/02-compose-services.jpg)
+
+### Image pushed to Docker Hub
+![Docker Hub push](screenshots/03-docker-hub-push.jpg)
 
 ## Author
 
