@@ -1,4 +1,4 @@
-# Docker Assignment: Containerized Web App with Compose
+# Docker Project: Containerized Web App with Compose
 
 A static web page served by Nginx in a custom Docker image, deployed alongside a MySQL database using Docker Compose.
 
